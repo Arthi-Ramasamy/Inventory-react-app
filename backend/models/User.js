@@ -6,10 +6,7 @@ const userSchema = new mongoose.Schema({
     age: { type: Number, required: true },
 });
 
-
-
 const User = mongoose.model("User", userSchema);
-
 
 module.exports = User;
 
